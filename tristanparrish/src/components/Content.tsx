@@ -9,7 +9,7 @@ const titleClassName = "font-bold text-4xl md:text-5xl mb-5";
 
 export default function Content({ selection }: { selection: string }) {
   return (
-    <div className="flex flex-col items-center rounded-md m-5 md:m-20 max-h-fit overflow-auto">
+    <div className="flex flex-col items-center rounded-md m-5 md:mx-5 md:px-5 md:my-10 md:py-5 max-h-fit overflow-auto">
       {selection === "Education" && (
         <Education titleClassName={titleClassName} />
       )}
