@@ -25,10 +25,10 @@ export default function Hero({
   ];
 
   const linkClasses = (isActive: boolean) =>
-    `flex items-center gap-2 rounded-md p-3 duration-300 border-neutral-700 border-1 ${
+    `flex items-center gap-2 rounded-md p-3 duration-300 border-neutral-700 border-1 cursor-pointer ${
       isActive
-        ? "bg-neutral-800 scale-110"
-        : "hover:scale-110 hover:bg-neutral-800"
+        ? "bg-neutral-900/90 scale-110"
+        : "hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90"
     }`;
 
   const socials = [
@@ -50,7 +50,7 @@ export default function Hero({
   ];
 
   const socialClasses =
-    "flex flex-col items-center gap-2 hover:scale-110 hover:bg-neutral-800 rounded-md p-4 duration-300 border-neutral-700 border-1";
+    "flex flex-col items-center gap-2 hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90 rounded-md p-4 duration-300 border-neutral-700 border-1";
 
   return (
     <div className="flex items-center justify-center flex-col text-center gap-4">
