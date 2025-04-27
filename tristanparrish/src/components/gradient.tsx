@@ -18,7 +18,7 @@ export default function CursorGradient() {
     left: 0,
     width: "100%",
     height: "100%",
-    pointerEvents: "none", // no casting needed when typed this way
+    pointerEvents: "none",
     background: `radial-gradient(circle at ${position.x}px ${position.y}px, rgba(0, 231, 255, 0.1), transparent 80%)`,
     zIndex: 1,
   };
