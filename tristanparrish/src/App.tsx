@@ -1,9 +1,7 @@
+import Homepage from "./sections/home";
+
 function App() {
-  return (
-    <h1 className="bg-neutral-900 h-screen flex items-center justify-center">
-      Placeholder - Tristan Parrish
-    </h1>
-  );
+  return <Homepage />;
 }
 
 export default App;
