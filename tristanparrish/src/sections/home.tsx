@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Content from "../components/Content";
 
 export default function Homepage() {
-  const [selection, setSelection] = useState("Education"); // State to manage the selected section
+  const [selection, setSelection] = useState("Education");
 
   return (
     <section className="bg-neutral-900 min-h-screen grid md:grid-cols-2">
