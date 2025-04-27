@@ -50,7 +50,7 @@ export default function Hero() {
           Developer & Cybersecurity Student
         </h2>
       </div>
-      <div className="flex justify-between gap-1">
+      <div className="flex justify-around gap-1">
         <div className="flex justify-between flex-col gap-3">
           {links.map((link) => (
             <a
