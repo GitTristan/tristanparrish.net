@@ -1,6 +1,6 @@
 import {
   HomeIcon,
-  CodeBracketSquareIcon,
+  UserIcon,
   BriefcaseIcon,
   AcademicCapIcon,
   CheckBadgeIcon,
@@ -18,7 +18,7 @@ export default function Hero({
 }) {
   const links = [
     { label: "Home", value: "Home", icon: HomeIcon },
-    { label: "Portfolio", value: "Portfolio", icon: CodeBracketSquareIcon },
+    { label: "About Me", value: "AboutMe", icon: UserIcon },
     { label: "Work Experience", value: "WorkExperience", icon: BriefcaseIcon },
     { label: "Education", value: "Education", icon: AcademicCapIcon },
     { label: "Certifications", value: "Certifications", icon: CheckBadgeIcon },
