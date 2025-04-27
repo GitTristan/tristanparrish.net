@@ -66,7 +66,7 @@ export default function Hero() {
           ))}
         </div>
         <div className="flex flex-col gap-6">
-          {socials.map((social, i) => (
+          {socials.map((social) => (
             <a
               target="_blank"
               rel="noopener noreferrer"
