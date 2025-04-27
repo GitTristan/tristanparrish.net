@@ -11,7 +11,7 @@ export default function Education({
     <div>
       <h1 className={titleClassName}>Education</h1>
       <p className={paragraphClassName}>
-        This is my edu again Lorem ipsum dolor sit amet consectetur adipisicing
+        This is my education lorem ipsum dolor sit amet consectetur adipisicing
         elit. Dignissimos nesciunt adipisci hic iusto similique, blanditiis
         omnis tempora soluta minus iste modi perspiciatis esse, expedita dolor,
         facere labore. Cupiditate pariatur mollitia dolor rem, eos ullam nulla
