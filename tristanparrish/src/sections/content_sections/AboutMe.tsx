@@ -7,42 +7,25 @@ export default function AboutMe({ titleClassName }: AboutMeProps) {
     <div>
       <h1 className={titleClassName}>About Me</h1>
       <p>
-        My name is Tristan! I'm a freelance web designer and developer
-        passionate about creating clean, high-performing websites that help
-        businesses grow. I specialize in custom website development, UI/UX
-        design, and website hosting solutions. My goal is to turn ideas into
-        impactful digital experiences—whether it's crafting a brand-new site,
-        revamping an outdated design, or optimizing for better performance and
-        conversions.
-        <br />
-        <br />
-        My journey into web design began long before I started freelancing. Over
-        the years, I’ve immersed myself in modern web development, industry best
-        practices, and user experience design, continually refining my skills to
-        stay ahead of trends. Having built a variety of websites for businesses
-        and entrepreneurs, I understand what makes a website both visually
-        appealing and strategically effective. My approach prioritizes clean,
-        user-friendly design and performance-driven results, ensuring that every
-        site I create is optimized for engagement and conversions.
-        <br />
-        <br />
-        Beyond web design, I also have a strong foundation in cybersecurity,
-        currently pursuing a Bachelor’s in Cybersecurity at St. Petersburg
-        College. My technical background allows me to build secure, optimized,
-        and scalable websites, ensuring businesses stay protected while growing
-        online.
-        <br />
-        <br />
-        When I’m not building websites, I work as a Core Support Technician at
-        KnowBe4, where I troubleshoot and support the platform. My experience in
-        tech support and cybersecurity gives me a unique edge in designing
-        websites that are not just visually appealing but also secure and
-        efficient.
-        <br />
-        <br />
-        I’m always looking to collaborate with businesses and entrepreneurs who
-        need a strong online presence. Let’s connect and bring your digital
-        vision to life!
+        I've always been drawn to challenges and the satisfaction that comes
+        from overcoming them. I enjoy the process of working through obstacles
+        and getting to the other side. That same mindset is what keeps me
+        motivated in this industry — there's always something new to figure out,
+        and every challenge is an opportunity to learn and get better.
+        <br /> <br />
+        Right now, I’m studying cybersecurity at St. Petersburg College while
+        continuing to build skills across development, infrastructure, and
+        security. I started out building websites with WordPress, moved into
+        custom development with HTML, CSS, and JavaScript, and later expanded
+        into frameworks like React and Vite — always looking for better,
+        cleaner, and more scalable ways to build.
+        <br /> <br />
+        Outside of my professional life, I spend a lot of time climbing, hiking,
+        and exploring the outdoors. I’ve noticed that I’m drawn to the same
+        things in those activities as I am in tech — exploring new areas,
+        working through challenges, and figuring things out along the way. It’s
+        a pattern that runs through a lot of what I enjoy: taking on something
+        unknown, pushing through obstacles, and learning from the experience.
       </p>
     </div>
   );
