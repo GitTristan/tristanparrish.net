@@ -1,16 +1,12 @@
 interface ExperienceProps {
   titleClassName?: string;
-  paragraphClassName?: string;
 }
 
-export default function Experience({
-  titleClassName,
-  paragraphClassName,
-}: ExperienceProps) {
+export default function Experience({ titleClassName }: ExperienceProps) {
   return (
     <div>
       <h1 className={titleClassName}>Experience</h1>
-      <p className={paragraphClassName}>
+      <p>
         This is my experience lorem ipsum dolor sit amet consectetur adipisicing
         elit. Dignissimos nesciunt adipisci hic iusto similique, blanditiis
         omnis tempora soluta minus iste modi perspiciatis esse, expedita dolor,

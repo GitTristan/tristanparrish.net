@@ -1,16 +1,14 @@
 interface CertificationsProps {
   titleClassName?: string;
-  paragraphClassName?: string;
 }
 
 export default function Certifications({
   titleClassName,
-  paragraphClassName,
 }: CertificationsProps) {
   return (
     <div>
       <h1 className={titleClassName}>Certifications</h1>
-      <p className={paragraphClassName}>
+      <p>
         This is my certifications lorem ipsum dolor sit amet consectetur
         adipisicing elit. Dignissimos nesciunt adipisci hic iusto similique,
         blanditiis omnis tempora soluta minus iste modi perspiciatis esse,

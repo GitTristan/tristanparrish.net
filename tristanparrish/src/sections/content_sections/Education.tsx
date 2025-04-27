@@ -1,16 +1,12 @@
 interface EducationProps {
   titleClassName?: string;
-  paragraphClassName?: string;
 }
 
-export default function Education({
-  titleClassName,
-  paragraphClassName,
-}: EducationProps) {
+export default function Education({ titleClassName }: EducationProps) {
   return (
     <div>
       <h1 className={titleClassName}>Education</h1>
-      <p className={paragraphClassName}>
+      <p>
         This is my education lorem ipsum dolor sit amet consectetur adipisicing
         elit. Dignissimos nesciunt adipisci hic iusto similique, blanditiis
         omnis tempora soluta minus iste modi perspiciatis esse, expedita dolor,

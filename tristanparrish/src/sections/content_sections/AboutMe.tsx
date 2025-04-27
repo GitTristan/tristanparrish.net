@@ -1,16 +1,12 @@
 interface AboutMeProps {
   titleClassName?: string;
-  paragraphClassName?: string;
 }
 
-export default function AboutMe({
-  titleClassName,
-  paragraphClassName,
-}: AboutMeProps) {
+export default function AboutMe({ titleClassName }: AboutMeProps) {
   return (
     <div>
       <h1 className={titleClassName}>About Me</h1>
-      <p className={paragraphClassName}>
+      <p>
         My name is Tristan! I'm a freelance web designer and developer
         passionate about creating clean, high-performing websites that help
         businesses grow. I specialize in custom website development, UI/UX
