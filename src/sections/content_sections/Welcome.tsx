@@ -12,9 +12,9 @@ interface WelcomeProps {
 }
 
 export default function Welcome({ titleClassName }: WelcomeProps) {
-  const stackIconClass = "h-20 w-20";
+  const stackIconClass = "h-10 w-10 xl:h-20 xl:w-20";
   const stackDivClass =
-    " p-3 font-black text-lg hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90 rounded-md duration-300 border-neutral-700 border-1 hover:cursor-pointer flex flex-col items-center justify-center";
+    " p-3 font-black text-sm xl:text-lg hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90 rounded-md duration-300 border-neutral-700 border-1 hover:cursor-pointer flex flex-col items-center justify-center";
 
   return (
     <div className="py-10 xl:py-0 flex flex-col items-center justify-center w-full">
@@ -69,7 +69,7 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
             className={`${stackDivClass} flex-row gap-3`}
           >
             <GitHubIcon className={stackIconClass} />
-            <span className="text-4xl">GitHub</span>
+            <span className="text-2xl xl:text-4xl">GitHub</span>
           </a>
           <a
             target="_blank"
@@ -78,7 +78,7 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
             className={`${stackDivClass} flex-row gap-3`}
           >
             <VercelIcon className={stackIconClass} />
-            <span className="text-4xl">Vercel</span>
+            <span className="text-2xl xl:text-4xl">Vercel</span>
           </a>
         </div>
         <div className="text-left">
