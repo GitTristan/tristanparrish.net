@@ -4,7 +4,7 @@ interface ExperienceProps {
 
 export default function Experience({ titleClassName }: ExperienceProps) {
   return (
-    <div className="flex flex-col items-center justify-center w-full gap-5">
+    <div className="py-10 xl:py-0 flex flex-col items-center justify-center w-full gap-5">
       <h1 className={titleClassName}>Experience</h1>
       <div className="grid grid-cols-3 hover:bg-white/10 bg-white/5 duration-300 rounded-md p-5 gap-5">
         <p className="flex-none opacity-70">July 2024 — Present</p>

@@ -12,9 +12,11 @@ import { LinkedInIcon, GitHubIcon } from "../assets/icons/myicons";
 export default function Hero({
   selection,
   setSelection,
+  isMobile,
 }: {
   selection: string;
   setSelection: (value: string) => void;
+  isMobile: boolean;
 }) {
   const links = [
     { label: "Home", value: "Home", icon: HomeIcon },
@@ -27,7 +29,7 @@ export default function Hero({
   const linkClasses = (isActive: boolean) =>
     `flex items-center gap-2 rounded-md p-3 duration-300 border-neutral-700 border-1 cursor-pointer ${
       isActive
-        ? "bg-neutral-900/90 scale-110"
+        ? "bg-neutral-900/60 xl:bg-neutral-900/90 xl:scale-110"
         : "hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90"
     }`;
 
@@ -52,6 +54,15 @@ export default function Hero({
   const socialClasses =
     "flex flex-col items-center gap-2 hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90 rounded-md p-4 duration-300 border-neutral-700 border-1";
 
+  const handleClick = (value: string) => {
+    if (isMobile) {
+      const section = document.getElementById(value);
+      section?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      setSelection(value);
+    }
+  };
+
   return (
     <div className="flex items-center justify-center flex-col text-center gap-4">
       <div>
@@ -65,7 +76,7 @@ export default function Hero({
           {links.map((link) => (
             <button
               key={link.label}
-              onClick={() => setSelection(link.value)}
+              onClick={() => handleClick(link.value)}
               className={linkClasses(selection === link.value)}
             >
               {link.icon ? <link.icon className="h-5 w-5" /> : null}

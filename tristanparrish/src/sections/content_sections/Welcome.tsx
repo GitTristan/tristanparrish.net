@@ -17,10 +17,10 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
     " p-3 font-black text-lg hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90 rounded-md duration-300 border-neutral-700 border-1 hover:cursor-pointer flex flex-col items-center justify-center";
 
   return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="py-10 xl:py-0 flex flex-col items-center justify-center w-full">
       <h1 className={titleClassName}>Welcome to My Portfolio!</h1>
       <div className="text-center w-full flex flex-col gap-3">
-        <h2 className="text-2xl font-light uppercase">
+        <h2 className="md:text-2xl font-light uppercase">
           This site was created and deployed using
         </h2>
         <div className="grid grid-cols-4 gap-5">
