@@ -4,7 +4,7 @@ import AboutMe from "../sections/content_sections/AboutMe";
 import Certifications from "../sections/content_sections/Certifications";
 import Welcome from "../sections/content_sections/Welcome";
 
-const titleClassName = "font-bold text-3xl md:text-5xl mb-5";
+const titleClassName = "font-bold text-3xl text-center md:text-5xl mb-5";
 
 export default function Content({
   selection,

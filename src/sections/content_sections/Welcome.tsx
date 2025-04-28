@@ -23,7 +23,7 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
         <h2 className="md:text-2xl font-light uppercase">
           This site was created and deployed using
         </h2>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -60,8 +60,26 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
             <TailwindIcon className={stackIconClass} />
             Tailwind
           </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/"
+            className={`md:hidden ${stackDivClass}`}
+          >
+            <GitHubIcon className={stackIconClass} />
+            GitHub
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://vercel.com/"
+            className={`md:hidden ${stackDivClass}`}
+          >
+            <VercelIcon className={stackIconClass} />
+            Vercel
+          </a>
         </div>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="md:grid grid-cols-2 gap-5 hidden">
           <a
             target="_blank"
             rel="noopener noreferrer"
