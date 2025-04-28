@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
 import CursorGradient from "../components/gradient";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export default function Homepage() {
   const [selection, setSelection] = useState("Home");
@@ -35,6 +36,7 @@ export default function Homepage() {
           <Content selection={selection} isMobile={isSinglePage} />
         </div>
       </div>
+      <SpeedInsights />
     </section>
   );
 }

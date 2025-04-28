@@ -95,9 +95,10 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
             , a popular JavaScript library known for creating fast, dynamic, and
             interactive web applications. React allows pages to update instantly
             without needing a full reload, making the user experience much
-            smoother and more responsive. As you explore the different sections
-            of this site including Home, About Me, Work Experience, Education,
-            and Certifications,{" "}
+            smoother and more responsive. If you're viewing this website on
+            laptop or desktop, as you explore the different sections of this
+            site including Home, About Me, Work Experience, Education, and
+            Certifications,{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
