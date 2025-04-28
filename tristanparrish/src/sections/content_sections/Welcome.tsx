@@ -24,70 +24,62 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
           This site was created and deployed using
         </h2>
         <div className="grid grid-cols-4 gap-5">
-          <div className={stackDivClass}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://vite.dev/"
+            className={stackDivClass}
+          >
             <ViteIcon className={stackIconClass} />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://vite.dev/"
-            >
-              Vite
-            </a>
-          </div>
-          <div className={stackDivClass}>
+            Vite
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://react.dev/"
+            className={stackDivClass}
+          >
             <ReactIcon className={stackIconClass} />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://react.dev/"
-            >
-              React
-            </a>
-          </div>
-          <div className={stackDivClass}>
+            React
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.typescriptlang.org/"
+            className={stackDivClass}
+          >
             <TsIcon className={stackIconClass} />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.typescriptlang.org/"
-            >
-              Typescript
-            </a>
-          </div>
-          <div className={stackDivClass}>
+            Typescript
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://tailwindcss.com/"
+            className={stackDivClass}
+          >
             <TailwindIcon className={stackIconClass} />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://tailwindcss.com/"
-            >
-              Tailwind
-            </a>
-          </div>
+            Tailwind
+          </a>
         </div>
         <div className="grid grid-cols-2 gap-5">
-          <div className={`${stackDivClass} flex-row gap-3`}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/"
+            className={`${stackDivClass} flex-row gap-3`}
+          >
             <GitHubIcon className={stackIconClass} />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/"
-              className="text-4xl"
-            >
-              GitHub
-            </a>
-          </div>
-          <div className={`${stackDivClass} flex-row gap-3`}>
+            <span className="text-4xl">GitHub</span>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://vercel.com/"
+            className={`${stackDivClass} flex-row gap-3`}
+          >
             <VercelIcon className={stackIconClass} />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://vercel.com/"
-              className="text-4xl"
-            >
-              Vercel
-            </a>
-          </div>
+            <span className="text-4xl">Vercel</span>
+          </a>
         </div>
         <div className="text-left">
           <p>
