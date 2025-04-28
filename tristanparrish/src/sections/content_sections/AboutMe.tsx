@@ -4,7 +4,7 @@ interface AboutMeProps {
 
 export default function AboutMe({ titleClassName }: AboutMeProps) {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center w-full gap-5">
       <h1 className={titleClassName}>About Me</h1>
       <p>
         I've always been drawn to challenges and the satisfaction that comes

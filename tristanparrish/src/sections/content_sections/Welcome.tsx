@@ -17,7 +17,7 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
     " p-3 font-black text-lg hover:scale-110 bg-neutral-900/60 hover:bg-neutral-900/90 rounded-md duration-300 border-neutral-700 border-1 hover:cursor-pointer flex flex-col items-center justify-center";
 
   return (
-    <div className="flex flex-col items-center justify-center w-full py-1">
+    <div className="flex flex-col items-center justify-center w-full">
       <h1 className={titleClassName}>Welcome to My Portfolio!</h1>
       <div className="text-center w-full flex flex-col gap-3">
         <h2 className="text-2xl font-light uppercase">
@@ -83,7 +83,7 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
         </div>
         <div className="text-left">
           <p>
-            This website is built using{" "}
+            I built this website from scratch using{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"

@@ -4,44 +4,67 @@ interface ExperienceProps {
 
 export default function Experience({ titleClassName }: ExperienceProps) {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center w-full gap-5">
       <h1 className={titleClassName}>Experience</h1>
-      <p>
-        This is my experience lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Dignissimos nesciunt adipisci hic iusto similique, blanditiis
-        omnis tempora soluta minus iste modi perspiciatis esse, expedita dolor,
-        facere labore. Cupiditate pariatur mollitia dolor rem, eos ullam nulla
-        porro aspernatur ad repellendus, dicta sed. Quae quod eligendi impedit
-        sit autem illo beatae perferendis fugit, iste minus, consequatur
-        suscipit ea odio veniam totam aperiam quia cum pariatur itaque, dolor
-        enim. Repudiandae similique, eveniet voluptatibus repellendus earum
-        dicta? Expedita rerum pariatur, dolorum nesciunt commodi reiciendis
-        dicta eum, numquam quo, aliquid iusto id! Ex unde assumenda repellendus
-        similique vel, odio, nostrum dignissimos numquam in nihil placeat
-        consequuntur culpa ut aperiam cumque minima cupiditate. Cumque doloribus
-        earum sed ab quas nisi recusandae voluptas magnam atque exercitationem.
-        Voluptatibus suscipit tempore fugit eius tempora doloremque ipsum ullam
-        dolor molestiae, fugiat nisi facilis animi, dolore ad porro esse ut.
-        Optio at dolor perspiciatis nemo, animi sit deleniti esse quaerat, quasi
-        fugit perferendis nihil expedita, provident sint molestias velit unde
-        iure omnis placeat temporibus dolorum distinctio aliquid ad. Odit,
-        aspernatur? Doloremque molestiae laboriosam alias atque nobis veritatis
-        accusamus est, inventore quaerat, quae nesciunt. Quibusdam, dignissimos
-        dicta quaerat blanditiis, rerum quia architecto exercitationem officiis
-        similique doloremque iure nostrum corporis quisquam? Numquam aspernatur
-        fugiat sint perferendis. Illo suscipit dignissimos facere rerum
-        reiciendis sint ratione laborum doloribus ad nemo! Officiis quidem
-        molestiae minus ex fugiat nostrum itaque reprehenderit corrupti
-        laboriosam nam commodi similique ratione animi quaerat dicta vel, natus
-        ea quo accusamus qui esse blanditiis deserunt necessitatibus facilis?
-        Ipsam dolore illum corrupti, sint accusamus esse. Nam recusandae
-        similique, sint sequi dolore animi libero, ea illo quas voluptas ab
-        cupiditate in dignissimos rem vel expedita iusto perspiciatis vitae
-        earum suscipit perferendis corrupti eos amet dolores. Libero vel
-        deserunt tenetur debitis, voluptate nesciunt mollitia accusamus odit
-        saepe maiores optio reprehenderit harum eum veritatis, quasi repellat
-        error!
-      </p>
+      <div className="grid grid-cols-3 hover:bg-white/10 bg-white/5 duration-300 rounded-md p-5 gap-5">
+        <p className="flex-none opacity-70">July 2024 — Present</p>
+        <div className=" col-span-2">
+          <h2>Core Support Technician • KnowBe4</h2>
+          <p className="opacity-70 text-sm">
+            Achieved top ticket solves for two consecutive months while earning
+            over 150 positive customer satisfaction reviews. Built hands-on
+            experience troubleshooting Google Workspace, Entra, Active
+            Directory, mail server whitelisting, and email delivery issues.
+            Continued refining communication and technical skills to better
+            support users across multiple environments.
+          </p>
+        </div>
+      </div>
+      <div className="grid grid-cols-3 hover:bg-white/10 bg-white/5 duration-300 rounded-md p-5 gap-5">
+        <p className="flex-none opacity-70">Sep 2022 — Present</p>
+        <div className=" col-span-2">
+          <h2>Freelance Website Developer • Parrish Design</h2>
+          <p className="opacity-70 text-sm">
+            Organized and operated a B2B website design, development, and
+            hosting business, collaborating with clients to turn design ideas
+            into high-performing websites. Improved conversion rates and
+            click-through rates through strategic redesigns and UX enhancements.
+            Built hands-on experience across a wide range of technologies
+            including HTML, CSS, JavaScript, TypeScript, React, TailwindCSS,
+            Vite, GitHub, Vercel, and more.
+          </p>
+        </div>
+      </div>
+      <div className="grid grid-cols-3 hover:bg-white/10 bg-white/5 duration-300 rounded-md p-5 gap-5">
+        <p className="flex-none opacity-70">Apr 2023 — Jul 2024</p>
+        <div className=" col-span-2">
+          <h2>Social Media Manager & Staff • Central Rock Gym</h2>
+          <p className="opacity-70 text-sm">
+            Managed social media growth efforts for a climbing gym, increasing
+            follower count by over 70% and boosting monthly reach from
+            approximately 30,000 to over 80,000 accounts. Helped train new
+            employees on internal processes and procedures to improve team
+            performance. Achieved the highest total number of member sign-ups in
+            2023 through a combination of outreach, engagement, and front desk
+            operations.
+          </p>
+        </div>
+      </div>
+      <div className="grid grid-cols-3 hover:bg-white/10 bg-white/5 duration-300 rounded-md p-5 gap-5">
+        <p className="flex-none opacity-70">Feb 2021 — Jul 2024</p>
+        <div className=" col-span-2">
+          <h2>Smart Home Technician • Camandras</h2>
+          <p className="opacity-70 text-sm">
+            Installed smart home technology in short-term rental properties,
+            configuring systems for tenant use and property management needs.
+            Troubleshooted technical issues to maintain system reliability and
+            created easy-to-follow guides to help tenants operate smart devices
+            independently. Implemented custom if-then automations to streamline
+            lighting, security, and environmental controls across different
+            properties.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
