@@ -11,7 +11,7 @@ export default function Certifications({
   return (
     <div className="py-10 xl:py-0 flex flex-col items-center justify-center w-full gap-5">
       <h1 className={titleClassName}>Certifications</h1>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid md:grid-cols-2 gap-5">
         <div className="flex flex-col hover:bg-white/10 bg-white/5 duration-300 rounded-md p-5 gap-2 items-center">
           <CompTIAIcon className="h-8" />
           <h2 className="text-2xl font-bold">A+</h2>
