@@ -63,7 +63,7 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/"
+            href="https://github.com/GitTristan/tristanparrish.net"
             className={`md:hidden ${stackDivClass}`}
           >
             <GitHubIcon className={stackIconClass} />
@@ -83,7 +83,7 @@ export default function Welcome({ titleClassName }: WelcomeProps) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/"
+            href="https://github.com/GitTristan/tristanparrish.net"
             className={`${stackDivClass} flex-row gap-3`}
           >
             <GitHubIcon className={stackIconClass} />
